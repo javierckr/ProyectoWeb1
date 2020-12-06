@@ -44,16 +44,16 @@ header h1{
     text-align: center;
 }
 aside {
-    width: 30%;
+    width: 28%;
     padding-left: 15px;
     margin-left: 15px;
     float: right;
 }
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+     clear: both;
+    position: relative;
+    height: 100px;
+    margin-top: -200px;
 }
 footer h6{
     font-size:16px;
@@ -69,6 +69,9 @@ footer div {
 }
 footer ul {
     list-style-type:none;
+}
+footer a{
+    color:black;
 }
 
 .content {
