@@ -7,13 +7,14 @@ a {
 }
 body{
     text-align: center;
+    background-color:#e3dcde;
     margin: 0;
     background-size:cover;
     position: relative;
     min-height: 100vh;
 }
 header{
-    background-color:black;
+    background-color:#030617;
     padding: 0;
 }
 nav{
@@ -44,13 +45,14 @@ header h1{
     text-align: center;
 }
 aside {
+    overflow:auto;
     width: 28%;
     padding-left: 15px;
     margin-left: 15px;
     float: right;
 }
 footer {
-     clear: both;
+    clear: both;
     position: relative;
     height: 100px;
     margin-top: -200px;
@@ -75,7 +77,6 @@ footer a{
 }
 
 .content {
-    padding-bottom: 2.5rem;
     width: 65%;
     float:left;
     margin:20px;
@@ -104,4 +105,44 @@ footer a{
     margin-right:20px;
     color:white;
 
+}
+
+
+
+form {
+    float: left;
+    position: relative;
+    left: 15%;
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:50px;
+    border: solid gray;
+    border-radius:20px;
+    text-align:center;
+    background-color:#ddd;
+
+}
+
+input, select {
+    border:none;
+    border-bottom:solid gray;
+    height:20px;
+    width:80%;
+}
+
+input:focus {
+    background-color:beige;
+    border: solid gray;
+}
+label {
+    float:left;
+    font-weight:bold;
+}
+
+button {
+    margin-top:40px;
+    border: solid;
 }
