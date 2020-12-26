@@ -30,19 +30,24 @@ nav{
     background-color: #333;
     padding: 16px;
 }
+/* Para links dentro del menu de navegacion */
+/* Color Padding y quitar el color azul del enlace */
 nav a{
     padding: 16px;
     color: #f2f2f2;
     text-decoration: none;
 }
+/* cuando se pasa el raton por encima */
 nav a:hover{
     background-color: #ddd;
     color: black;
 }
+/* Clase active para remarcar la página en la que estás */
 nav a.active {
     background-color: #2d33f5;
     color: white;
 }
+/* Tipo de letra del titulo principal */
 header h1{
     color: #f2f2f2; 
     font-family: 'Helvetica Neue', sans-serif;
@@ -53,17 +58,21 @@ header h1{
     line-height: 1;
     text-align: center;
 }
+/* Para el contenido embebido a la derecha */
 aside {
     overflow:auto;
     width: 28%;
     float: right;
+    padding:2%;
+    padding-left:0px;
 }
+/* Reglas para el pie de página */
 footer {
     clear: both;
     position: relative;
     height: 100px;
-    margin-top: -200px;
 }
+/* Titulos del pie de pagina */
 footer h6{
     font-size:16px;
     text-transform:uppercase;
@@ -77,18 +86,21 @@ footer div {
     float:left;
     margin:2%;
 }
+/* Quitar estilo a la lista para que no se vean los puntitos */
 footer ul {
     list-style-type:none;
 }
+/* Color de los enlaces negro */
 footer a{
     color:black;
 }
-
+/* Clase para centrar el contenido principal y ponerle margenes y tamaño para que sea responsive */
 .content {
     width: 65%;
     float:left;
     padding:2%;
 }
+/* Estilo de iconos sacado del css externo font awesome está en el html*/
 .fa-linkedin {
     background-color:#042f66;
     padding:10px;
@@ -96,9 +108,11 @@ footer a{
     margin-right:20px;
     color:white;
 }
+/* clase para justificar el texto */
 .justify {
     text-align:justify;
 }
+/* Estilo de iconos sacado del css externo font awesome está en el html*/
 .fa-github{
     background-color:grey;
     padding:10px;
@@ -106,6 +120,7 @@ footer a{
     margin-right:20px;
     color:white;
 }
+/* Estilo de iconos sacado del css externo font awesome está en el html*/
 .fa-twitter{
     background-color:#1DA1F2;
     padding:10px;
@@ -116,7 +131,7 @@ footer a{
 }
 
 
-
+/* Propiedades del formulario sacados principalmente del ejercicio de clase */
 form {
     float: left;
     position: relative;
@@ -134,17 +149,21 @@ form {
 
 }
 
-input, select {
+/* Formato de los imputs del formulario */
+input {
     border:none;
     border-bottom:solid gray;
     height:20px;
     width:80%;
 }
 
+/* cuando se esta escribiendo en el input */
 input:focus {
     background-color:beige;
     border: solid gray;
 }
+
+/* Estilo de las etiquetas del formulario */
 label {
     float:left;
     font-weight:bold;
@@ -158,6 +177,7 @@ button {
   padding: 10px 32px;
 }
 
+/* Cuando se pone el cursor sobre el boton */
 button:hover {
   background-color: #555555;
   color: white;
@@ -169,19 +189,23 @@ ul.breadcrumb {
     background-color:#e6e6e6;
     text-align:left;
 }
+/* Para que las listas salgan en la misma linea */
 ul.breadcrumb li {
     display: inline;
     font-size: 18px;
 }
+/* para que ponga  el / despues de un elemento */
 ul.breadcrumb li+li:before {
     padding: 8px;
     color: black;
     content: "/\00a0";
 }
+/* Color de los enlaces en la lista */
 ul.breadcrumb li a {
     color: #0275d8;
     text-decoration: none;
 }
+/* Cuando se pulsa un enlace en la lista */
 ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
