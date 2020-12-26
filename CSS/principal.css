@@ -149,31 +149,39 @@ label {
     float:left;
     font-weight:bold;
 }
-
+/* Estilo del botón */
 button {
     margin-top:40px;
-    border: solid;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  padding: 10px 32px;
+}
+
+button:hover {
+  background-color: #555555;
+  color: white;
 }
 /* Estilo del breadcrumb copiado en su mayor parte de W3schools*/
 ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-  background-color:#e6e6e6;
-  text-align:left;
+    padding: 10px 16px;
+    list-style: none;
+    background-color:#e6e6e6;
+    text-align:left;
 }
 ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
+    display: inline;
+    font-size: 18px;
 }
 ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
 }
 ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
+    color: #0275d8;
+    text-decoration: none;
 }
 ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
+    color: #01447e;
+    text-decoration: underline;
