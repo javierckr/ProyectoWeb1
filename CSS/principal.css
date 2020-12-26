@@ -216,8 +216,8 @@ section.profile h1,h3{
     font-family:monospace;
     padding:2%;
 }
-/* Estilos de imagenes */
-img {
+/* Estilos de imagene de about me*/
+.profile img {
     padding:2%;
     display: block;
     margin-left: auto;
@@ -226,6 +226,10 @@ img {
     width: 180px;
     border-radius:50%;
 }
+/* Para darle la vuelta a la imagen */
+.profile img:hover {
+    transform: scaleX(-1);
+}
 /* div para limpiar los float */
 div.clear {
     clear:both;
@@ -233,17 +237,17 @@ div.clear {
 /* Estilos para la grafica con habilidades sacado de w3schools*/
 /* Color del fondo de cada grafico */
 .container {
-  width: 100%;
-  background-color: #ddd;
-  margin:2%;
+    width: 100%;
+    background-color: #ddd;
+    margin:2%;
 }
 
 /* Estilo del texto de la habilidad */
 .skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
 }
 
 /*Estilo color y porcentaje de cada habilidad */
@@ -252,3 +256,48 @@ div.clear {
 .js {width: 45%; background-color: #1071cc;}
 .php {width: 60%; background-color: #1071cc;}
 .mysql {width: 60%; background-color: #1071cc;}
+/* Imagenes inicio */
+.content img {
+    display: block;
+    width: 100%;
+}
+/* Para poner texto por encima a las Imagenes... */
+/* Ejemplo de w3school */
+.hoverableimg {
+    /* Posicion relativa porqu es muy complicado calcular el porcentaje absoluto */
+    position:relative;
+    width:30%;
+    height:100%;
+    float:left;
+    margin-right:3.333%;
+    margin-top:3%;
+
+}
+/* Overlay que se pone encima de la imagen */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+/* Cuando se pone encima el raton */
+.hoverableimg:hover .overlay {
+    height: 100%;
+}
+/* Estilo del texto del overlay */
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
