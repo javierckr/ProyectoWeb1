@@ -1,7 +1,9 @@
+/* Para qeu no quede bordes raros con el fondo */
 * {
     margin: 0px;
     padding: 0px;
 }
+/* Para que no salga azul con una raya debajo */
 a {
     text-decoration:none;
 }
@@ -13,10 +15,17 @@ body{
     position: relative;
     min-height: 100vh;
 }
+/* Alinear el texto de los párrafos a la izquierda*/
+p {
+    text-align: left;
+}
+/* Color de la cabecera y margenes */
 header{
     background-color:#030617;
+    background-image:url(../PUBLIC/cabecera-home-cti.jpeg);
     padding: 0;
 }
+/* color del menu de navegacion y  margenes */
 nav{
     background-color: #333;
     padding: 16px;
@@ -47,8 +56,6 @@ header h1{
 aside {
     overflow:auto;
     width: 28%;
-    padding-left: 15px;
-    margin-left: 15px;
     float: right;
 }
 footer {
@@ -64,10 +71,11 @@ footer h6{
     letter-spacing:2px;
     text-align:center;
 }
+/* Anchura y margenes de el pie de pagina para que sea responive */
 footer div {
-    width:30%;
+    width:29%;
     float:left;
-    padding:15px;
+    margin:2%;
 }
 footer ul {
     list-style-type:none;
@@ -79,7 +87,7 @@ footer a{
 .content {
     width: 65%;
     float:left;
-    margin:20px;
+    padding:2%;
 }
 .fa-linkedin {
     background-color:#042f66;
@@ -146,3 +154,26 @@ button {
     margin-top:40px;
     border: solid;
 }
+/* Estilo del breadcrumb copiado en su mayor parte de W3schools*/
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color:#e6e6e6;
+  text-align:left;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
