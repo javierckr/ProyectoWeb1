@@ -208,6 +208,7 @@ ul.breadcrumb li a:hover {
 section.profile{
     background-image:url(../PUBLIC/HeaderBck.jpeg);
 
+    background-size:cover;
 
 }
 section.profile h1,h3{
@@ -217,6 +218,7 @@ section.profile h1,h3{
 }
 /* Estilos de imagenes */
 img {
+    padding:2%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -224,3 +226,29 @@ img {
     width: 180px;
     border-radius:50%;
 }
+/* div para limpiar los float */
+div.clear {
+    clear:both;
+}
+/* Estilos para la grafica con habilidades sacado de w3schools*/
+/* Color del fondo de cada grafico */
+.container {
+  width: 100%;
+  background-color: #ddd;
+  margin:2%;
+}
+
+/* Estilo del texto de la habilidad */
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+/*Estilo color y porcentaje de cada habilidad */
+.html {width: 80%; background-color: #1071cc;}
+.css {width: 80%; background-color: #1071cc;}
+.js {width: 45%; background-color: #1071cc;}
+.php {width: 60%; background-color: #1071cc;}
+.mysql {width: 60%; background-color: #1071cc;}
