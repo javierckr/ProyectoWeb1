@@ -10,14 +10,6 @@ a {
 body{
     text-align: center;
     background-color:#e3dcde;
-    margin: 0;
-    background-size:cover;
-    position: relative;
-    min-height: 100vh;
-}
-/* Alinear el texto de los párrafos a la izquierda*/
-p {
-    text-align: left;
 }
 /* Color de la cabecera y margenes */
 header{
@@ -65,6 +57,7 @@ aside {
     float: right;
     padding:2%;
     padding-left:0px;
+    text-align:left;
 }
 /* Reglas para el pie de página */
 footer {
@@ -99,6 +92,7 @@ footer a{
     width: 65%;
     float:left;
     padding:2%;
+    text-align:left;
 }
 /* Estilo de iconos sacado del css externo font awesome está en el html*/
 .fa-linkedin {
@@ -171,16 +165,16 @@ label {
 /* Estilo del botón */
 button {
     margin-top:40px;
-  background-color: white;
-  color: black;
-  border: 2px solid #555555;
-  padding: 10px 32px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 10px 32px;
 }
 
 /* Cuando se pone el cursor sobre el boton */
 button:hover {
-  background-color: #555555;
-  color: white;
+    background-color: #555555;
+    color: white;
 }
 /* Estilo del breadcrumb copiado en su mayor parte de W3schools*/
 ul.breadcrumb {
@@ -209,3 +203,24 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
+}
+/*Estilo para la pagina about me la primera parte */
+section.profile{
+    background-image:url(../PUBLIC/HeaderBck.jpeg);
+
+
+}
+section.profile h1,h3{
+    color:white;
+    font-family:monospace;
+    padding:2%;
+}
+/* Estilos de imagenes */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    width: 180px;
+    border-radius:50%;
+}
