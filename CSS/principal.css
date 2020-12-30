@@ -301,3 +301,23 @@ div.clear {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+figure img{
+    width:100%;
+}
+/* Estilo para las figuras y el texto de debajo */
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+article h1 {
+    text-align:center;
+}
