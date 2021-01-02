@@ -6,3 +6,4 @@ if(document.cookie){
 }
 // Es posible que en crome con la pagina local no funcione bien la cookie, porque no es https en firefox
 // funciona.
+// Aquí funciona https://javierckr.github.io/ProyectoWeb1/
