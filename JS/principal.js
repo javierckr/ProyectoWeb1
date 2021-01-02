@@ -38,7 +38,7 @@ function formSubmited(){
             if(dniValidate(DNI.toLowerCase())){
                 // Si todo es correcto se crea una galletita con el nombre de usuario
                 // Que se borra al cerrar el navegador, para facilitar pruebas...
-                document.cookie = document.getElementById("nom").value;
+                document.cookie = document.getElementById("nom").value + ";secure";
             }else{
                 alert("DNI no válido");
             }
