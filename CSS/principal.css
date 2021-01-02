@@ -320,8 +320,6 @@ figcaption {
 }
 article h1 {
     text-align:center;
-}
-.content h1 {
     padding:2%;
     font-family:monospace;
     font-size:30px;
