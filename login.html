@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- para los iconos de Linkedin... -->
         <meta charset="UTF-8" >
         <meta name="author" content="Javier García T.">
-         <script src="JS/principal.js"></script>
         <style>
         </style>
         <base href=""> <!-- especifica la dirección URL base que se utilizará para todas las direcciones URL relativas -->
@@ -31,18 +30,20 @@
             <li>Registrase</li>
         </ul>
         <section >
-            <form action="/action_page.php">
+            <form id="submit">
                 <label for="nom">Nombre</label><br>
-                <input type="text" id="nom" name="nom" value="Nombre"><br>
+                <input required="required" type="text" id="nom" name="nom" placeholder="Nombre"><br>
                 <label for="ema">Email</label><br>
-                <input type="email" id="ema" name="ema" value="example@example.com"><br>
+                <input required="required" type="email" id="ema" name="ema" placeholder="example@example.com"><br>
                 <label for="dni">DNI</label><br>
-                <input type="text" id="dni" name="dni" value="xxxxxxxx"><br>
+                <input required="required" type="text" id="dni" name="dni" placeholder="xxxxxxxx"><br>
                 <label for="age">Fecha de nacimiento</label><br>
-                <input type="date" id="age" name="age" ><br>
-                <button type="submit" value="Submit">Submit </button>
+                <input required="required" type="date" id="age" name="age" ><br>
+                <button type="submit" placeholder="Submit">Enviar</button>
             </form>
         </section>
+        <!-- Añado aquí el script, porque si no no funciona el getElementById porque todavia no ha cargado la pagina en 3el head -->
+         <script src="JS/principal.js"></script>
 
         <footer>
             <div class="justify">
