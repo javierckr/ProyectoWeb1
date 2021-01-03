@@ -1,14 +1,10 @@
 <!DOCTYPE html> <!-- Codificación html -->
 <html>
     <head>
-        <script>
-        </script>
         <link rel="stylesheet" href="CSS/principal.css"> <!-- Tipo de archivo y url -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- para los iconos de Linkedin... -->
         <meta charset="UTF-8" >
         <meta name="author" content="Javier García T.">
-        <style>
-        </style>
         <base href=""> <!-- especifica la dirección URL base que se utilizará para todas las direcciones URL relativas -->
         <title>El Mundo que viene</title>
     </head>
@@ -30,6 +26,9 @@
             <li>Registrase</li>
         </ul>
         <section >
+            <!-- Fomulario de registro -->
+            <!-- Requiered para que te obligue a rellenar los campos antes de enviar -->
+            <!-- action index.html para que te lleve a la pagina inicial una vez registrado -->
             <form id="submit" action="index.html">
                 <label for="nom">Nombre</label><br>
                 <input required="required" type="text" id="nom" name="nom" placeholder="Nombre"><br>
@@ -42,9 +41,10 @@
                 <button type="submit" placeholder="Submit">Enviar</button>
             </form>
         </section>
-        <!-- Añado aquí el script, porque si no no funciona el getElementById porque todavia no ha cargado la pagina en 3el head -->
-         <script src="JS/principal.js"></script>
+        <!-- Añado aquí el script, porque si no no funciona el getElementById porque todavia no ha cargado la pagina en el head -->
+        <script src="JS/principal.js"></script>
 
+        <!-- Pie de página -->
         <footer>
             <div class="justify">
                 <h6>Créditos</h6>

@@ -1,253 +1,253 @@
 /* Para qeu no quede bordes raros con el fondo */
 * {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 /* Para que no salga azul con una raya debajo */
 a {
-	text-decoration:none;
+    text-decoration:none;
 }
 body{
-	text-align: center;
-	background-color:#e3dcde;
+    text-align: center;
+    background-color:#e3dcde;
 }
 /* Color de la cabecera y margenes */
 header{
-	background-color:#030617;
-	background-image:url(../PUBLIC/cabecera-home-cti.jpeg);
-	padding: 0;
+    background-color:#030617;
+    background-image:url(../PUBLIC/cabecera-home-cti.jpeg);
+    padding: 0;
 }
 /* color del menu de navegacion y  margenes */
 nav{
-	background-color: #333;
-	padding: 16px;
+    background-color: #333;
+    padding: 16px;
 }
 /* Para links dentro del menu de navegacion */
 /* Color Padding y quitar el color azul del enlace */
 nav a{
-	padding: 16px;
-	color: #f2f2f2;
-	text-decoration: none;
+    padding: 16px;
+    color: #f2f2f2;
+    text-decoration: none;
 }
 /* cuando se pasa el raton por encima */
 nav a:hover{
-	background-color: #ddd;
-	color: black;
+    background-color: #ddd;
+    color: black;
 }
 /* Clase active para remarcar la página en la que estás */
 nav a.active {
-	background-color: #2d33f5;
-	color: white;
+    background-color: #2d33f5;
+    color: white;
 }
 /* Tipo de letra del titulo principal */
 header h1{
-	color: #f2f2f2; 
-	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 75px;
-	padding:50px;
-	font-weight: bold;
-	letter-spacing: -1px;
-	line-height: 1;
-	text-align: center;
+    color: #f2f2f2; 
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 75px;
+    padding:50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
 }
 /* Para el contenido embebido a la derecha */
 aside {
-	overflow:auto;
-	width: 28%;
-	float: right;
-	padding:2%;
-	padding-left:0px;
-	text-align:left;
+    overflow:auto;
+    width: 28%;
+    float: right;
+    padding:2%;
+    padding-left:0px;
+    text-align:left;
 }
 /* Reglas para el pie de página */
 footer {
-	clear: both;
-	position: relative;
-	height: 100px;
+    clear: both;
+    position: relative;
+    height: 100px;
 }
 /* Titulos del pie de pagina */
 footer h6{
-	font-size:16px;
-	text-transform:uppercase;
-	margin-top:5px;
-	letter-spacing:2px;
-	text-align:center;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px;
+    text-align:center;
 }
 /* Anchura y margenes de el pie de pagina para que sea responive */
 footer div {
-	width:29%;
-	float:left;
-	margin:2%;
+    width:29%;
+    float:left;
+    margin:2%;
 }
 /* Quitar estilo a la lista para que no se vean los puntitos */
 footer ul {
-	list-style-type:none;
+    list-style-type:none;
 }
 /* Color de los enlaces negro */
 footer a{
-	color:black;
+    color:black;
 }
 /* Clase para centrar el contenido principal y ponerle margenes y tamaño para que sea responsive */
 .content {
-	width: 65%;
-	float:left;
-	padding:2%;
-	text-align:left;
+    width: 65%;
+    float:left;
+    padding:2%;
+    text-align:left;
 }
 /* Estilo de iconos sacado del css externo font awesome está en el html*/
 .fa-linkedin {
-	background-color:#042f66;
-	padding:10px;
-	border-radius:6px;
-	margin-right:20px;
-	color:white;
+    background-color:#042f66;
+    padding:10px;
+    border-radius:6px;
+    margin-right:20px;
+    color:white;
 }
 /* clase para justificar el texto */
 .justify {
-	text-align:justify;
+    text-align:justify;
 }
 /* Estilo de iconos sacado del css externo font awesome está en el html*/
 .fa-github{
-	background-color:grey;
-	padding:10px;
-	border-radius:6px;
-	margin-right:20px;
-	color:white;
+    background-color:grey;
+    padding:10px;
+    border-radius:6px;
+    margin-right:20px;
+    color:white;
 }
 /* Estilo de iconos sacado del css externo font awesome está en el html*/
 .fa-twitter{
-	background-color:#1DA1F2;
-	padding:10px;
-	border-radius:6px;
-	margin-right:20px;
-	color:white;
+    background-color:#1DA1F2;
+    padding:10px;
+    border-radius:6px;
+    margin-right:20px;
+    color:white;
 
 }
 
 
 /* Propiedades del formulario sacados principalmente del ejercicio de clase */
 form {
-	float: left;
-	position: relative;
-	left: 15%;
-	width:60%;
-	margin-right:auto;
-	margin-left:auto;
-	margin-top:20px;
-	margin-bottom:20px;
-	padding:50px;
-	border: solid gray;
-	border-radius:20px;
-	text-align:center;
-	background-color:#ddd;
+    float: left;
+    position: relative;
+    left: 15%;
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:50px;
+    border: solid gray;
+    border-radius:20px;
+    text-align:center;
+    background-color:#ddd;
 
 }
 
-/* Formato de los imputs del formulario */
+/* Formato de los inputs del formulario */
 input {
-	border:none;
-	border-bottom:solid gray;
-	height:20px;
-	width:80%;
+    border:none;
+    border-bottom:solid gray;
+    height:20px;
+    width:80%;
 }
 
 /* cuando se esta escribiendo en el input */
 input:focus {
-	background-color:beige;
-	border: solid gray;
+    background-color:beige;
+    border: solid gray;
 }
 
 /* Estilo de las etiquetas del formulario */
 label {
-	float:left;
-	font-weight:bold;
+    float:left;
+    font-weight:bold;
 }
 /* Estilo del botón */
 button {
-	margin-top:40px;
-	background-color: white;
-	color: black;
-	border: 2px solid #555555;
-	padding: 10px 32px;
+    margin-top:40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 10px 32px;
 }
 
 /* Cuando se pone el cursor sobre el boton */
 button:hover {
-	background-color: #555555;
-	color: white;
+    background-color: #555555;
+    color: white;
 }
 /* Estilo del breadcrumb copiado en su mayor parte de W3schools*/
 ul.breadcrumb {
-	padding: 10px 16px;
-	list-style: none;
-	background-color:#e6e6e6;
-	text-align:left;
+    padding: 10px 16px;
+    list-style: none;
+    background-color:#e6e6e6;
+    text-align:left;
 }
 /* Para que las listas salgan en la misma linea */
 ul.breadcrumb li {
-	display: inline;
-	font-size: 18px;
+    display: inline;
+    font-size: 18px;
 }
 /* para que ponga  el / despues de un elemento */
 ul.breadcrumb li+li:before {
-	padding: 8px;
-	color: black;
-	content: "/\00a0";
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
 }
 /* Color de los enlaces en la lista */
 ul.breadcrumb li a {
-	color: #0275d8;
-	text-decoration: none;
+    color: #0275d8;
+    text-decoration: none;
 }
 /* Cuando se pulsa un enlace en la lista */
 ul.breadcrumb li a:hover {
-	color: #01447e;
-	text-decoration: underline;
+    color: #01447e;
+    text-decoration: underline;
 }
 /*Estilo para la pagina about me la primera parte */
 section.profile{
-	background-image:url(../PUBLIC/HeaderBck.jpeg);
+    background-image:url(../PUBLIC/HeaderBck.jpeg);
 
-	background-size:cover;
+    background-size:cover;
 
 }
 section.profile h1,h3{
-	color:white;
-	font-family:monospace;
-	padding:2%;
+    color:white;
+    font-family:monospace;
+    padding:2%;
 }
 /* Estilos de imagene de about me*/
 .profile img {
-	padding:2%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 180px;
-	width: 180px;
-	border-radius:50%;
+    padding:2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    width: 180px;
+    border-radius:50%;
 }
 /* Para darle la vuelta a la imagen */
 .profile img:hover {
-	transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 /* div para limpiar los float */
 div.clear {
-	clear:both;
+    clear:both;
 }
 /* Estilos para la grafica con habilidades sacado de w3schools*/
 /* Color del fondo de cada grafico */
 .container {
-	width: 100%;
-	background-color: #ddd;
-	margin:2%;
+    width: 100%;
+    background-color: #ddd;
+    margin:2%;
 }
 
 /* Estilo del texto de la habilidad */
 .skills {
-	text-align: right;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: white;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
 }
 
 /*Estilo color y porcentaje de cada habilidad */
@@ -258,80 +258,86 @@ div.clear {
 .mysql {width: 60%; background-color: #1071cc;}
 /* Imagenes inicio */
 .content img {
-	display: block;
-	width: 100%;
+    display: block;
+    width: 100%;
 }
 /* Para poner texto por encima a las Imagenes... */
 /* Ejemplo de w3school */
 .hoverableimg {
-	/* Posicion relativa porqu es muy complicado calcular el porcentaje absoluto */
-	position:relative;
-	width:30%;
-	height:100%;
-	float:left;
-	margin-right:3.333%;
-	margin-top:3%;
+    /* Posicion relativa porqu es muy complicado calcular el porcentaje absoluto */
+    position:relative;
+    width:30%;
+    height:100%;
+    float:left;
+    margin-right:3.333%;
+    margin-top:3%;
 
 }
 /* Overlay que se pone encima de la imagen */
 .overlay {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: #008CBA;
-	overflow: hidden;
-	width: 100%;
-	height: 0;
-	transition: .5s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
 }
 /* Cuando se pone encima el raton */
 .hoverableimg:hover .overlay {
-	height: 100%;
+    height: 100%;
 }
 /* Estilo del texto del overlay */
 .text {
-	white-space: nowrap;
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
+/* Anchura de las figuras */
 figure img{
-	width:100%;
+    width:100%;
 }
 /* Estilo para las figuras y el texto de debajo */
 figure {
-	border: 1px #cccccc solid;
-	padding: 4px;
-	margin: auto;
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
 }
 
+/* Estilo de el texto de debajo de la imagen */
 figcaption {
-	background-color: black;
-	color: white;
-	font-style: italic;
-	padding: 2px;
-	text-align: center;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
 }
+/* Estilo de los títulos de los artículos */
 article h1 {
-	text-align:center;
-	padding:2%;
-	font-family:monospace;
-	font-size:30px;
+    text-align:center;
+    padding:2%;
+    font-family:monospace;
+    font-size:30px;
 }
+/* Estilo títulos del contenido */
 .content h2 {
-	margin-top:3%;
+    margin-top:3%;
 }
+/* Estilo de las listas ordenadas */
 ol {
-	margin-left:3%;
+    margin-left:3%;
 }
+/* Estilo del vídeo */
 video {
-	position: relative;
-	width: 90%;
-	padding: 2%;
+    position: relative;
+    width: 90%;
+    padding: 2%;
 }

@@ -1,14 +1,10 @@
 <!DOCTYPE html> <!-- Codificación html -->
 <html>
     <head>
-        <script>
-        </script>
         <link rel="stylesheet" href="CSS/principal.css"> <!-- Tipo de archivo y url -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- para los iconos de Linkedin... -->
         <meta charset="UTF-8" >
         <meta name="author" content="Javier García T.">
-        <style>
-        </style>
         <base href=""> <!-- especifica la dirección URL base que se utilizará para todas las direcciones URL relativas -->
         <title>El Mundo que viene</title>
     </head>
@@ -17,14 +13,17 @@
         <header>
             <h1>"El Mundo que viene"</h1>
             <!-- Menú de navegación de la páginas -->
+            <!-- Id changeCont para cambiar el nombre con JS -->
             <nav>
                 <a class="active" href="index.html">Inicio</a>
                 <a href="noticiasrel.html">Noticias relacionadas</a>
                 <a href="aboutme.html">Sobre mí</a>
                 <a id="changeCont" href="login.html">Registrarse</a>
             </nav>
-         <script src="JS/cookie.js"></script>
+            <!-- Script que cambia el nombre y el enlace de login si el usuario está registrado, no está al principio porque tiene que ejecutarse después de que se cargue el menú -->
+            <script src="JS/cookie.js"></script>
         </header>
+        <!-- Contenedor principal, clase "content" está flotado a la izquierda-->
         <div class="content">
             <section>
                 <p>Estamos en un mundo en el que la tecnología crece exponencialmente.
@@ -34,6 +33,7 @@
                 <p>Otra tecnología que está surgiendo este año es la impresión 3D.
                 Aunque el tiempo para fabricar objetos sigue siendo exagerado, gracias a esta tecnología las personas pueden construir las primeras casas y crear implantes médicos como huesos, ingeniería como alas de avión o piezas de automóvil.
                 La tecnología holográfica parece haber aparecido por primera vez en 1948.</p>
+                <!-- Imágenes con formato bonito y enlace a la noticia-->
                 <a href="noticiasrel.html#rl">
                     <div class="hoverableimg">
                         <img src="PUBLIC/1.jpg" alt="Noticia 1">
@@ -61,9 +61,11 @@
             </section>
 
         </div>
+        <!-- Twitter embembido, flotado a la derecha de la página-->
         <aside>
             <a class="twitter-timeline" data-lang="es" data-height="500" data-theme="dark" href="https://twitter.com/technews_today?ref_src=twsrc%5Etfw">Tweets by technews_today</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
         </aside>
+        <!-- Pie de página...-->
         <footer>
             <div class="justify">
                 <h6>Créditos</h6>
